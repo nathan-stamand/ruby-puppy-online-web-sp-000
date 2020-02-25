@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.print_all 
-    @@all.join('\n').to_s
+    puts @@all.join('\n').to_s
   end
   
 end 
