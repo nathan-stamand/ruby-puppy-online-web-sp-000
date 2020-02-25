@@ -14,4 +14,10 @@ class Dog
     @@all = []
   end
   
+  def self.print_all 
+    @@all.each do |i|
+      puts i 
+    end 
+  end
+  
 end 
