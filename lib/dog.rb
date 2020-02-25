@@ -19,15 +19,13 @@ class Dog
   def self.print_all 
     new_string = []
     @@all.each do |i|
-      new_string << "#{i.name}"
+      new_string << "#{i.name + "\n"}"
     end 
-    new_string.join('\n')
+    new_string.join
   end
   
   def save 
     @@all << self 
   end 
-  
-  
   
 end 
