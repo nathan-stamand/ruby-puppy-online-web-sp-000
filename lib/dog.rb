@@ -17,7 +17,12 @@ class Dog
   end
   
   def self.print_all 
-    puts "Pluto\nFido\nMaddy\n"
+    new_string = ""
+    @@all.each do |i|
+      i << "\n"
+      new_string << i 
+    end 
+    new_string
   end
   
   def save 
