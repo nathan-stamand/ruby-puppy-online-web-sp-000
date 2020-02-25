@@ -21,7 +21,7 @@ class Dog
     @@all.each do |i|
       new_string << "#{i.name + "\n"}"
     end 
-    new_string.join
+    puts new_string.join
   end
   
   def save 
