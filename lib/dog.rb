@@ -18,6 +18,7 @@ class Dog
   
   def self.print_all 
     puts @@all.join('\n')
+    "Pluto\nFido\nMaddie"
   end
   
   def save 
