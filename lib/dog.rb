@@ -17,7 +17,7 @@ class Dog
   end
   
   def self.print_all 
-    puts "Pluto\nFido\nMaddie\n"
+    puts "Pluto\nFido\nMaddy\n"
   end
   
   def save 
