@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.print_all 
-    return @@all.join('\n')+ "\n"
-  end
+    return "#{@@all.join('\n')+'\n}'}"
+    end
   
 end 
